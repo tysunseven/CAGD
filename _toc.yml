@@ -1,5 +1,23 @@
 format: jb-book
-root: content/introduction
+root: content/Introduction
 chapters:
-  - file: content/chapter1
-    title: chapter1
+  - file: content/Chapter1
+    title: Chapter1 Data Fitting
+  - file: content/Chapter2
+    title: Chapter2 Bézier Curve
+  - file: content/Chapter3
+    title: Chapter3 Bézier Spline
+  - file: content/Chapter4
+    title: Chapter4 B-spline
+  - file: content/Chapter5
+    title: Chapter5 Blossoming and Polar Forms
+  - file: content/Chapter6
+    title: Chapter6 Rational Splines
+  - file: content/Chapter7
+    title: Chapter7 Spline Surfaces
+  - file: content/Chapter8
+    title: Chapter8 Subdivision Curves & Surfaces
+  - file: content/Chapter9
+    title: Chapter9 Implicit Surfaces
+  - file: content/Chapter10
+    title: Chapter10 Surface Parameterization
