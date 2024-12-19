@@ -1,15 +1,33 @@
-title: "2024 Fall Computer Aided Geometric Design"
+title: "Computer Aided Geometric Design"
 author: "Tianyang Sun"
 logo: ""
 repository:
-  url: "https://github.com/tysunseven/2024-Fall-Computer-Aided-Geometric-Design"
-  path_to_book: ""  # 如果你的书在仓库的根目录，留空即可
+  url: "https://github.com/tysunseven/Computer-Aided-Geometric-Design"
+  path_to_book: ""  # 如果书籍在仓库根目录
 
 launch_buttons:
-  # binderhub_url: https://mybinder.org  # 使用 Binder 服务
-  notebook_interface: classic          # 启动经典的 Jupyter Notebook 界面
-  use_jupyterlab: false                # 如果需要 JupyterLab，可设置为 true
+  binderhub_url: https://mybinder.org
+  notebook_interface: classic
+  colab_url: https://colab.research.google.com/
+  thebe: true #
 
 exclude_patterns:
   - "venv/**"
   - README.md
+
+html:
+  extra_navbar: ""
+  extra_footer: ""
+  theme:
+    name: sphinx_book_theme
+    options:
+      repository_url: "https://github.com/tysunseven/Computer-Aided-Geometric-Design"
+      repository_branch: main
+      path_to_docs: ""
+      use_edit_page_button: false
+      use_fullscreen_button: true
+      use_download_button: true
+      extra_nav_links:
+        PDF: _static/pdf/book.pdf
+    logo:
+      text: "Computer Aided Geometric Design"
