@@ -1,0 +1,5 @@
+format: jb-book
+root: content/introduction
+chapters:
+  - file: content/chapter1
+    title: chapter1

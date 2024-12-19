@@ -1,0 +1,15 @@
+title: "2024 Fall Computer Aided Geometric Design"
+author: "Tianyang Sun"
+logo: ""
+repository:
+  url: "https://github.com/tysunseven/2024-Fall-Computer-Aided-Geometric-Design"
+  path_to_book: ""  # 如果你的书在仓库的根目录，留空即可
+
+launch_buttons:
+  # binderhub_url: https://mybinder.org  # 使用 Binder 服务
+  notebook_interface: classic          # 启动经典的 Jupyter Notebook 界面
+  use_jupyterlab: false                # 如果需要 JupyterLab，可设置为 true
+
+exclude_patterns:
+  - "venv/**"
+  - README.md
