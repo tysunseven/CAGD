@@ -1,5 +1,5 @@
 format: jb-book
-root: content/Introduction
+root: content/Introduction.md
 chapters:
   - file: content/Chapter1
     title: Chapter1 Data Fitting
