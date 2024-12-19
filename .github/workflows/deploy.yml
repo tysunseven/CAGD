@@ -16,7 +16,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install jupyter-book numpy matplotlib
+        pip install jupyter-book numpy matplotlib ipywidgets
     - name: Build Jupyter Book
       run: jupyter-book build .
     - name: Deploy to GitHub Pages
